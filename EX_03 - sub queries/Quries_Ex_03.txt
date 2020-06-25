@@ -1,0 +1,18 @@
+create table EMP
+( EMPNO NUMBER(6),
+ENAME VARCHAR2(20),
+JOB VARCHAR2(10),
+DEPTNO NUMBER(3),
+SALARY NUMBER(7,2)
+);
+insert into emp values(&empno,'&ename','&job','&deptno',&salary);
+create table dept
+( DEPTNO NUMBER(2),
+DNAME VARCHAR2(10),
+LOC VARCHAR2(10)
+);
+update emp set deptno=3,job='ASP' where empno=5; 
+insert into dept values(4,'OPERATIONS','BOSTON');
+insert into dept values(1,'ACCOUNTING','NEW YORK');
+insert into dept values(2,'RESEARCH','DALLAS');
+insert into dept values(3,'SALES','CHICAGO');  

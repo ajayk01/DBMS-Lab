@@ -1,0 +1,24 @@
+
+create table product
+(p_id number(3),	
+p_name varchar(20),
+s_name varchar(8),
+unit_price number(3)
+);
+insert into product values(100,'Camera','Nikon',300);
+insert into product values(101,'Television','Onida',100);
+insert into product values(102,'Refrigerator','Videocon',150);
+insert into product values(103,'Ipod','Apple',75);
+insert into product values(104,'Mobile','Nokia',50);
+
+create table ord
+(o_id number(3),
+p_id number(4),
+total_units number(10),
+customer varchar(10)
+);
+insert into ord values(510,104,30,'Infosys');
+insert into ord values(511,102,5,'Satyam');
+insert into ord values(512,103,25,'Wipro');
+insert into ord values(513,101,10,'TCS');
+

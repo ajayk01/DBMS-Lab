@@ -1,0 +1,9 @@
+create table inc(
+name varchar(10),
+sal_inc number(2)
+);
+insert into inc values('Mathi',4);
+insert into inc values('Arjun',7);
+insert into inc values('Gugan',9);
+insert into inc values('Karti',6);
+insert into inc values('Blake',8);
